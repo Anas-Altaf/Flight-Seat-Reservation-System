@@ -47,93 +47,25 @@ A console-based flight seat reservation system with an interactive UI, real-time
 ### File Structure
 ```
 ├── src/
-│   ├── 
-
-main.cpp
-
-          # Main program flow
-│   ├── 
-
-booking.cpp
-
-       # Booking logic
-│   ├── 
-
-display.cpp
-
-       # UI display functions
-│   ├── 
-
-visual.cpp
-
-        # Visual effects
-│   └── 
-
-filehandler.cpp
-
-   # File operations
+│   ├── main.cpp # Main program flow
+│   ├── booking.cpp # Booking logic
+│   ├── display.cpp # UI display functions
+│   ├── visual.cpp # Visual effects
+│   └── filehandler.cpp # File operations
 ├── include/
-│   ├── 
-
-booking.h
-
-         # Booking declarations
-│   ├── 
-
-display.h
-
-         # Display declarations
-│   ├── 
-
-visual.h
-
-          # Visual declarations
-│   ├── 
-
-filehandler.h
-
-     # File handling declarations
-│   └── 
-
-structs.h
-
-         # Common structures
-└── 
-
-bookings.txt
-
-          # Booking storage
+│   ├── booking.h# Booking declarations
+│   ├── display.h  # Display declarations
+│   ├── visual.h # Visual declarations
+│   ├── filehandler.h # File handling declarations
+│   └── structs.h # Common structures
+└── bookings.txt # Booking storage
 ```
 
 ## 💻 Setup & Usage
 
 1. **Compilation**
 ```bash
-g++ 
-
-main.cpp
-
- 
-
-visual.cpp
-
- 
-
-display.cpp
-
- 
-
-booking.cpp
-
- 
-
-filehandler.cpp
-
- -o 
-
-flight.exe
-
-
+g++ main.cpp visual.cpp display.cpp booking.cpp filehandler.cpp -o flight.exe
 ```
 
 2. **Running**
