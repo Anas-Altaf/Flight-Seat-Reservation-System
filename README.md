@@ -10,7 +10,8 @@
 ```
 
 A console-based flight seat reservation system with an interactive UI, real-time seat visualization, and persistent booking management.
-
+## 📱 Screenshots
+![1](/ui.png) ![2](/ui2.png)
 ## ✨ Features
 
 - **Interactive Seat Layout**
@@ -46,13 +47,13 @@ A console-based flight seat reservation system with an interactive UI, real-time
 
 ### File Structure
 ```
-├── src/
+├── cpp/
 │   ├── main.cpp # Main program flow
 │   ├── booking.cpp # Booking logic
 │   ├── display.cpp # UI display functions
 │   ├── visual.cpp # Visual effects
 │   └── filehandler.cpp # File operations
-├── include/
+├── headers/
 │   ├── booking.h# Booking declarations
 │   ├── display.h  # Display declarations
 │   ├── visual.h # Visual declarations
